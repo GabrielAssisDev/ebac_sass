@@ -1,0 +1,15 @@
+@use 'color';
+
+.menu {
+    display: flex;
+
+    li {
+        font-weight: bold;
+        margin-left: 24px;
+    }
+
+    li a {
+        color: color.$corSecundaria;
+        text-decoration: none;
+    }
+}
